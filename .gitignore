@@ -1,1 +1,11 @@
+# Log files
+*.log
+mawari/*.log
+nexus/*.log
 
+# OS & IDE specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
