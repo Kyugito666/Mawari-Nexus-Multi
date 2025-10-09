@@ -1,0 +1,18 @@
+[package]
+name = "orchestrator"
+version = "0.5.0"
+edition = "2021"
+authors = ["Kyugito666"]
+description = "GitHub Codespace Full Auto Orchestrator for Mawari & Nexus"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = "0.4"
+billing = { path = "src/billing.rs" }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
