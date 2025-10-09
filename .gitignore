@@ -9,3 +9,12 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# =====================================================
+# PENTING: File sensitif dari orkestrator & setup tool
+# =====================================================
+orchestrator/tokens.json
+orchestrator/secrets.json
+orchestrator/token_cache.json
+orchestrator/invited_users.txt
+orchestrator/state.json
